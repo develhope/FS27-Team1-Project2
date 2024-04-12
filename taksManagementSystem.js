@@ -19,6 +19,3 @@ function checkTask(error, data) {
     console.log(data);
   }
 }
-
-addTask(checkTask, "ciao");
-taskManagementSystem.js
