@@ -30,3 +30,7 @@ function completeTask(index, callback) {
     }
   }, 2000)
 }
+
+function listTask(){
+  (tasks.forEach((task,index) => console.log(task,index)))
+}
