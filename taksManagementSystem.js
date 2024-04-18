@@ -34,3 +34,4 @@ function completeTask(index, callback) {
 function listTask(){
   (tasks.forEach((task,index) => console.log(task,index)))
 }
+
